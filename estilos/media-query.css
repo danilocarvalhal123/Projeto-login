@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login{
+        width: 80vw; 
+        height: 45vw;       
+    }
+
+    section#login > div#img{
+        background: url(../img/carnaval.jpg);
+        background-position: center;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login{
+        width: 930px;        
+    }
+
+    section#login > div#img{
+        
+        background: #2a772e url(../img/bruno.jpg) no-repeat;
+        background-position: 80%;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+    div#formulario > p{
+        font-size: 2em;
+    }
+}
